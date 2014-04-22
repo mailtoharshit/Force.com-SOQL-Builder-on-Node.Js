@@ -1,3 +1,3 @@
-## Force.com Mini API Explorer ##
+## Salesforce SOQL Query Editor on Node.js ##
 
-More information here: http://coenraets.org
+More information here: http://www.oyecode.com
