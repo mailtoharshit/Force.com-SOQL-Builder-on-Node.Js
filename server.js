@@ -13,4 +13,4 @@ app.all('/proxy', function(req, res) {
 });
 
 console.log('Listening on port 3000...');
-http.createServer(app).listen(3000);
+http.createServer(app).listen(process.env.PORT || 3000);
