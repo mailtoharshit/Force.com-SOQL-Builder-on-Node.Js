@@ -1,8 +1,8 @@
 //Hosting Code to Heroku Platform 
 var apiVersion = 'v29.0',
-    clientId = '3MVG9xOCXq4ID1uHGNaZ5zbKxqGsFbvb802bA8CzRfSDQCD7oSr1_KXm66Sc8k.IJ9UAh0_FuhTUEsEmWwSQE   ',
+    clientId = '3MVG9xOCXq4ID1uHGNaZ5zbKxqGsFbvb802bA8CzRfSDQCD7oSr1_KXm66Sc8k.IJ9UAh0_FuhTUEsEmWwSQE',
     loginUrl = 'https://login.salesforce.com/',
-    redirectURI = "https://login.salesforce.com/services/oauth2/callback",
+    redirectURI = "https://localhost:3000/oauthcallback.html",
     proxyURL = 'http://localhost:3000/proxy/',
     client = new forcetk.Client(clientId, loginUrl, proxyURL);
 
