@@ -2,7 +2,7 @@
 var apiVersion = 'v29.0',
     clientId = '3MVG9xOCXq4ID1uHGNaZ5zbKxqGsFbvb802bA8CzRfSDQCD7oSr1_KXm66Sc8k.IJ9UAh0_FuhTUEsEmWwSQE',
     loginUrl = 'https://login.salesforce.com/',
-    redirectURI = "http://oyesoql.herokuapp.com/oauthcallback.html",
+    redirectURI = "https://oyesoql.herokuapp.com/oauthcallback.html",
     proxyURL = 'http://localhost:3000/proxy/',
     client = new forcetk.Client(clientId, loginUrl, proxyURL);
 
